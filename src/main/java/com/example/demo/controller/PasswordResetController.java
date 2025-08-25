@@ -9,7 +9,7 @@ import com.example.demo.service.PasswordResetService;
 
 @RestController
 @RequestMapping("/api/auth") // Consistent with your existing auth endpoints
-@CrossOrigin(origins = "http://localhost:3000") // Ensure this matches your frontend URL
+@CrossOrigin(origins = "https://frontend-fitness-tracker-app.vercel.app") // Ensure this matches your frontend URL
 public class PasswordResetController {
 
     private final PasswordResetService passwordResetService;

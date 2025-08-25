@@ -59,7 +59,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/notifications")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://frontend-fitness-tracker-app.vercel.app")
 public class NotificationController {
 
     private final NotificationService service;

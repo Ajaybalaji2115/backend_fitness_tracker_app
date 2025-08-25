@@ -365,7 +365,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/workout-assignments")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://frontend-fitness-tracker-app.vercel.app")
 public class WorkoutAssignmentController {
 
     private final WorkoutAssignmentRepository repo;

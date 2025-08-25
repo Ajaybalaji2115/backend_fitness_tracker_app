@@ -285,7 +285,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/exercise-library")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://frontend-fitness-tracker-app.vercel.app")
 public class ExerciseLibraryController {
 
     private final ExerciseLibraryService service;

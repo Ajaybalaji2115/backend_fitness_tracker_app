@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.*;
 // }
 @RestController
 @RequestMapping("/api/add-user")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://frontend-fitness-tracker-app.vercel.app")
 public class AddAdminController {
 
     @Autowired

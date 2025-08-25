@@ -14,7 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/progress")
-@CrossOrigin(origins = "http://localhost:3000") // adjust frontend origin if needed
+@CrossOrigin(origins = "https://frontend-fitness-tracker-app.vercel.app") // adjust frontend origin if needed
 public class ProgressHistoryController {
 
     private final ProgressHistoryService progressService;
